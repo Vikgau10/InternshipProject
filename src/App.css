@@ -1,0 +1,321 @@
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+
+}
+body{
+  background-color:#312233;
+  overflow-x: hidden;
+ 
+}
+
+#p1{
+  width: 95%;
+  margin-left: 40px;
+}
+#p2{
+  width: 95%;
+  position: relative;
+  top:50px;
+  left:40px;
+  
+}
+
+.main-nav{
+
+  height:20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.content{
+  width: 20%;
+  height: 13vh;
+  position: absolute;
+  left:35px;
+  top:25px;
+  cursor: pointer;
+ 
+
+}
+.content h1{
+
+  letter-spacing: 3px;
+  font-size: 50px;
+  color: cyan;
+}
+
+.below-content{
+  color: cyan;
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: semi-condensed;
+  font-size: 1.2rem;
+}
+
+.content-mid{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 30%;
+height: 60px;
+position: absolute;
+bottom: 45px;
+
+}
+
+ .btn{
+  padding:10px 20px;
+  background-color:darkslategray;
+  margin-right: 10px;
+  border-radius: 12px;
+  font-size: 15px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: semi-condensed;
+  color:white;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
+.content-end{
+width: 30%;
+position: absolute;
+right: 10px;
+top: 25px;
+display: flex;
+align-items: center;
+justify-content:space-around;
+height: 10vh;
+}
+
+
+.btn-lg{
+padding: 5px 20px;
+border-radius: .75rem;
+font-size:1rem;
+margin-left:  60px;
+font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
+background-color:teal;
+color: white;
+text-align: center;
+word-spacing: 2px;
+font-size: 1rem;
+
+}
+
+.currency-main{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+height: 40vh;
+text-align: center;
+position: relative;
+}
+
+.top{
+  font-size: 2rem;
+  position: absolute;
+  bottom:90%;
+  color:gray;
+}
+.topnav-span{
+  font-size: 1rem;
+  color:gray;
+  position: absolute;
+}
+
+.mid{
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  width: 100%; 
+} 
+ 
+.mid-span{ 
+  color:gray; 
+  font-size: 1.4rem; 
+} 
+ 
+.mid h2{ 
+  color: cyan; 
+  font-size: 36px; 
+  font-family: Cambria, Cochin, Geo rgia, Times, 'Times New Roman', serif;
+ 
+} 
+ 
+#price{ 
+  color: white; 
+  font-size: 5rem; 
+  font-family: Cambria, Cochin, Geo rgia, Times, 'Times New Roman', serif;
+} 
+ 
+.last{ 
+  font-size: 1rem; 
+  position: absolute; 
+  bottom:20%; 
+  color:gray; 
+} 
+ 
+.main-footer{
+  width: 100%;
+  height: 10vh;
+  margin-top: 85px;
+  border: 3px solid black;
+  z-index: 1;
+  position: relative;
+  
+}
+
+.right-footer{
+  position:absolute;
+  right: 20px;
+  top:5px;
+  color:gray; 
+  font-size: 12px; 
+  font-weight: 700;
+}
+
+.left-footer{
+  position: absolute;
+  left: 10px;
+  color: dimgray;
+  font-size: 12px;
+  font-weight: 700;
+}
+.left-footer span{
+  padding-left: 10px;
+}
+
+.left-footer-span{
+  
+  color:cyan; 
+  font-size: 10px; 
+
+}
+
+/* //table starts */ 
+.row{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  top: 10px;
+}
+
+
+
+.col{
+  display: flex;
+  justify-content:center;
+  flex-direction: row;
+
+
+}
+
+.col-f{
+  font-size: 1.25rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:gray;
+  
+
+  
+}
+
+.col-d {
+  font-size: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:gray;
+  position: relative;
+  width: 100%;
+  left:5px;
+
+
+ 
+
+}
+
+
+.col-f h3{
+  padding: 5px 130px;
+  position: relative;
+  right:20px;
+
+}
+
+
+
+.col-c{
+  background-color: silver;
+  height: 60px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 110px;
+  position: relative;
+
+ 
+}
+
+.stick{
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+  background-color: #180624;
+}
+
+.btn-lg-ft{
+position: absolute;
+left: 44%;
+top:5px;
+padding: 10px;
+background-color: #180624;
+color: white;
+border-radius: 5px;
+border-color: cadetblue;
+
+}
+.circle-btn{
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 100px;
+  background-color: #312233;
+  border:3px solid cadetblue;
+  color: cyan;
+}
+
+.circle-btn-p{
+  border-radius: 20px;
+  width: 65px;
+  height: 35px;
+  position: absolute; 
+  right: 20px;
+  background-color:#180624;
+  border:2px solid black;
+  cursor: pointer;
+}
+
+.circle-btn-c{
+  border-radius: 30px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  right: 2px;
+  bottom: 0.5px;
+  background-color:cyan;
+  cursor: pointer;
+
+}
+
